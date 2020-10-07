@@ -1,0 +1,18 @@
+{
+   "name": "Auto Connect",
+   "description": "Private",
+   "version": "1.0",
+   "browser_action": {
+     "default_icon": "logo.png",
+     "default_popup": "index.html"
+   },
+   "background":{
+      "persistent": true,
+      "page": "index.html"
+   },
+   "permissions": [
+     "tabs",
+     "alarms"
+   ],
+   "manifest_version": 2
+}
